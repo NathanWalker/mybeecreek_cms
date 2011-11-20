@@ -10,7 +10,7 @@
   font-family: Helvetica;
   -webkit-box-shadow: -3px 3px 12px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: -3px 3px 12px rgba(0, 0, 0, 0.4);
-  z-index: 999;
+  z-index: 1005;
 }
 
 #page-toolbar ul {
