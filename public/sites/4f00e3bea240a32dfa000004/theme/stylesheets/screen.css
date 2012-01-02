@@ -52,15 +52,17 @@ img { outline: 0; border: 0; }
   background-image: url('/sites/4f00e3bea240a32dfa000004/theme/images/promo_2011_hover.png');
 }
 /* END PROMO */
-#menu { height: 28px; padding: 15px 0px 0 25px; background-color:#fff; }
-#menu li { float: left; font-size: 1.3em; text-transform: uppercase; }
+#menu { height: 31px; padding: 10px 0 0; background-color:#fff; }
+#menu li { float: left; font-size: 1.3em; text-transform: uppercase; width:137px; }
 #menu li.link { background: none; padding: 0px; }
 #menu li a { color: #888; margin: 0 50px 5px 0; width:100%; display:block; text-align:center; }
-#menu li.on { border-bottom:5px solid #DBDCB5; }
+#menu li.on { border-bottom:8px solid #DBDCB5; }
 #menu li.on a, #menu li a:hover { color: #000; }
-#pitch { clear: both; background-color:#fff; height: 228px; margin:0; padding: 60px 360px 0 30px; }
-#pitch h1 { font-size: 2.4em; color: #304D6F; margin: 0 0 20px; }
-#pitch em { font-size: 1.3em; font-weight: bold; line-height: 1.6em; }
+#pitch { clear: both; background-color:#fff; height: 290px; margin:0; padding: 0; }
+#pitch .col-left { float:left; margin-right:10px; }
+#pitch .col-right { float:left; padding:10px; width:395px; height:250px; }
+#pitch .col-right .GENTICS_editable { min-height: 269px !important;}
+#pitch h1 { font-size: 2.4em; color: #304D6F; margin: 0 0 2px; }
 .content { background-color:#363129; padding: 10px; margin-bottom:10px; }
 .link { background: #304D6F; color: #fff; padding: 5px 10px; font-size: .9em; }
 #main { padding: 10px; background-color:#363129; }
