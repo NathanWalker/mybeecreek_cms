@@ -63,15 +63,20 @@ img { outline: 0; border: 0; }
 #pitch .col-right { float:left; padding:10px; width:395px; height:250px; }
 #pitch .col-right .GENTICS_editable { min-height: 269px !important;}
 #pitch h1 { font-size: 2.4em; color: #304D6F; margin: 0 0 2px; }
-.content { background-color:#363129; padding: 10px; margin-bottom:10px; }
+.content { background-color:#363129; padding: 10px; margin-bottom:10px; box-shadow:0 0 5px 2px #000; -webkit-box-shadow:0 0 5px 2px #000; -moz-box-shadow:0 0 5px 2px #000; }
 .link { background: #304D6F; color: #fff; padding: 5px 10px; font-size: .9em; }
-#main { padding: 10px; background-color:#363129; }
+#main { padding: 10px; background-color:#363129; box-shadow:0 0 5px 2px #000; -webkit-box-shadow:0 0 5px 2px #000; -moz-box-shadow:0 0 5px 2px #000; }
 #main .body-content { background-color:#fff; padding:20px; }
 .col { float: left; width: 292px; margin:0 15px 0 0; }
+.col .photo { width:100px; float:left; margin:0 15px 15px 0; box-shadow:0 0 5px 2px #000; -webkit-box-shadow:0 0 5px 2px #000; -moz-box-shadow:0 0 5px 2px #000; }
+.col .photo a { display:block;}
+.col .photo img { width:100px; }
+.photo-image img {margin:0 auto; }
 .case { clear: both; }
 .case img { float: left; clear: left; margin: 0 20px 20px 0; background: #121212; padding: 3px; }
 .short { padding: 0 0 15px 0; margin:0; line-height: 1.6em; color:#555; }
 .case a, .article a { font-weight: bold; font-size:18px;}
+.short a { font-size:12px; }
 .case h5 a { font-weight: bold; }
 .case .short { background: none; margin-bottom: 5px; }
 .date { font-size: 12px; margin: 0 0 3px; }
@@ -86,11 +91,11 @@ img { outline: 0; border: 0; }
 .pagination a.next_page { margin-left: 0px; }
 #contactform { background-color:#fff; display:inline-block; margin-top:20px; }
 #contactform p { margin-bottom: 10px; clear: both; }
-#contactform p label { font-size: 1.3em; color: #304D6F; float: left; width: 150px; text-align:right; margin-right:10px; }
+#contactform p label { font-size: 1.3em; color: #304D6F; float: left; width: 175px; text-align:right; margin-right:10px; }
 #contactform p input[type=text], #contactform p textarea { font-size: 1.2em; padding: 3px 5px; }
 #contactform p input[type=text] { width: 200px; }
-#contactform p textarea { width: 400px; height: 200px; }
-#contactform p.action { padding: 0 0px 15px 155px; }
+#contactform p textarea { width: 350px; height: 100px; }
+#contactform p.action { padding: 0 0px 15px 180px; }
 #contactform p.action input { background: #304D6F; color: #fff; padding: 3px 5px; text-transform: uppercase; margin: 0 5px; border: none; }
 .partner { margin-top: 20px; clear: both; }
 .partner img { float: left; clear: left; margin: 0 20px 20px 0; background: #121212; padding: 3px; }
