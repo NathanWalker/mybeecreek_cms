@@ -72,6 +72,7 @@ img { outline: 0; border: 0; }
 .col .photo a { display:block;}
 .col .photo img { width:100px; }
 .photo-image img {margin:0 auto; }
+.photos-more { clear:both; margin-top:5px; }
 .case { clear: both; }
 .case img { float: left; clear: left; margin: 0 20px 20px 0; background: #121212; padding: 3px; }
 .short { padding: 0 0 15px 0; margin:0; line-height: 1.6em; color:#555; }
